@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تحدي الاحتمالات – نهائي الكأس</title>
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <h1>⚽ تحدي الاحتمالات – نهائي الكأس</h1>
+    <p>أدخل رقمك ثم أجب عن السؤالين. لديك 10 دقائق.</p>
+  </section>
+
+  <section id="startCard" class="card">
+    <label for="studentNumber">رقم الطالب</label>
+    <input id="studentNumber" class="input" type="number" min="1" max="31" placeholder="من 1 إلى 31">
+    <div class="toolbar"><button id="startBtn" class="btn btn-primary">بدء النشاط</button></div>
+    <div id="startMsg"></div>
+  </section>
+
+  <section id="quizCard" class="card hidden">
+    <div class="row">
+      <div><strong>رقم الطالب:</strong> <span id="studentLabel"></span></div>
+      <div><strong>السؤالان المطلوبان:</strong> 2</div>
+    </div>
+    <div id="questions"></div>
+    <button id="submitBtn" class="btn btn-primary">إرسال الإجابات</button>
+    <button id="cancelBtn" class="btn btn-secondary">عودة</button>
+    <div id="quizMsg"></div>
+  </section>
+
+  <section id="doneCard" class="card hidden">
+    <h2>تم استلام إجاباتك بنجاح ✅</h2>
+    <p>شكراً لمشاركتك في تحدي الاحتمالات ⚽</p>
+  </section>
+
+  <div class="admin-link"><a href="./admin/">نتائج المدرس</a></div>
+</div>
+<script src="./config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="./student.js"></script>
+</body></html>

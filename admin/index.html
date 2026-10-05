@@ -1,0 +1,14 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>دخول المدرس</title><link rel="stylesheet" href="../assets/style.css"></head><body>
+<div class="wrap"><section class="hero"><h1>لوحة نتائج المدرس</h1><p>تسجيل دخول آمن عبر Supabase Auth</p></section>
+<section class="card"><label>البريد الإلكتروني</label><input id="email" class="input" type="email">
+<label>كلمة المرور</label><input id="password" class="input" type="password">
+<div class="toolbar"><button id="loginBtn" class="btn btn-primary">دخول</button></div><div id="msg"></div></section></div>
+<script src="../config.js"></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script>
+const sb=supabase.createClient(APP_CONFIG.SUPABASE_URL,APP_CONFIG.SUPABASE_ANON_KEY);
+loginBtn.onclick=async()=>{msg.innerHTML='';const {data,error}=await sb.auth.signInWithPassword({email:email.value,password:password.value});
+if(error){msg.innerHTML='<div class="msg error">بيانات الدخول غير صحيحة</div>';return}
+location.href='./dashboard.html'};
+(async()=>{const {data}=await sb.auth.getSession();if(data.session)location.href='./dashboard.html'})();
+</script></body></html>

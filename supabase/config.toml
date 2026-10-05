@@ -1,0 +1,5 @@
+[functions.get-questions]
+verify_jwt = false
+
+[functions.submit-answers]
+verify_jwt = false

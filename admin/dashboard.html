@@ -1,0 +1,23 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>لوحة النتائج</title><link rel="stylesheet" href="../assets/style.css"></head><body>
+<div class="wrap">
+<section class="hero"><h1>لوحة نتائج تحدي الاحتمالات</h1><p>نهائي الكأس</p></section>
+<div class="toolbar">
+<button id="refreshBtn" class="btn btn-primary">تحديث</button>
+<button id="csvBtn" class="btn btn-secondary">تصدير CSV</button>
+<button id="jsonBtn" class="btn btn-secondary">تحميل JSON</button>
+<button id="resetBtn" class="btn btn-danger">مسح جميع النتائج</button>
+<button id="logoutBtn" class="btn btn-secondary">تسجيل الخروج</button>
+</div>
+<section id="stats" class="grid"></section>
+<section class="card"><h2>الطلاب الذين لم يسلّموا</h2><div id="missing"></div></section>
+<section class="card"><h2>نتائج الطلاب</h2>
+<input id="search" class="input" placeholder="بحث برقم الطالب">
+<div style="overflow:auto"><table><thead><tr>
+<th>الطالب</th><th>إجابة 1</th><th>نتيجة 1</th><th>إجابة 2</th><th>نتيجة 2</th><th>الصحيح</th><th>الخاطئ</th><th>النسبة</th><th>وقت الإرسال</th><th></th>
+</tr></thead><tbody id="tbody"></tbody></table></div></section>
+<section class="card"><h2>تحليل الأسئلة</h2><div id="analysis"></div></section>
+</div>
+<script src="../config.js"></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="./admin.js"></script>
+</body></html>

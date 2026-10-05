@@ -1,0 +1,498 @@
+[
+  {
+    "studentNumber": 1,
+    "questionNumber": 1,
+    "questionText": "احتمال فوز المنتخب في النهائي خلال الوقت الأصلي هو 0.55. ما احتمال ألا يفوز خلال الوقت الأصلي؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "P(Aᶜ) = 1 - P(A) = 1 - 0.55",
+    "correctAnswerDecimal": 0.45
+  },
+  {
+    "studentNumber": 1,
+    "questionNumber": 2,
+    "questionText": "احتمال فوز المنتخب 0.55 واحتمال التعادل بعد 90 دقيقة 0.25. ما احتمال أن يفوز أو يتعادل؟",
+    "rule": "القاعدة 4: الجمع - أحداث متنافية",
+    "formulaAndSolution": "P(A ∪ B) = P(A) + P(B) = 0.55 + 0.25",
+    "correctAnswerDecimal": 0.8
+  },
+  {
+    "studentNumber": 2,
+    "questionNumber": 1,
+    "questionText": "احتمال تسجيل المنتخب الهدف الأول هو 0.60. ما احتمال ألا يسجل الهدف الأول؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.60",
+    "correctAnswerDecimal": 0.4
+  },
+  {
+    "studentNumber": 2,
+    "questionNumber": 2,
+    "questionText": "احتمال أن يسجل اللاعب A ركلة جزاء هو 0.80 واحتمال أن يسجل اللاعب B ركلة جزاء هو 0.75. بافتراض الاستقلال، ما احتمال أن يسجلا الركلتين؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "P(A ∩ B) = P(A) × P(B) = 0.80 × 0.75",
+    "correctAnswerDecimal": 0.6
+  },
+  {
+    "studentNumber": 3,
+    "questionNumber": 1,
+    "questionText": "احتمال أن تصل المباراة إلى الوقت الإضافي هو 0.30. ما احتمال ألا تصل إليه؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.30",
+    "correctAnswerDecimal": 0.7
+  },
+  {
+    "studentNumber": 3,
+    "questionNumber": 2,
+    "questionText": "احتمال فوز المنتخب في الوقت الأصلي 0.50 واحتمال فوزه في الوقت الإضافي 0.20. إذا اعتبرنا الحدثين متنافيين، فما احتمال أن يفوز قبل ركلات الترجيح؟",
+    "rule": "القاعدة 4: الجمع - أحداث متنافية",
+    "formulaAndSolution": "0.50 + 0.20",
+    "correctAnswerDecimal": 0.7
+  },
+  {
+    "studentNumber": 4,
+    "questionNumber": 1,
+    "questionText": "احتمال تسجيل المنتخب في الشوط الأول هو 0.65. ما احتمال ألا يسجل؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.65",
+    "correctAnswerDecimal": 0.35
+  },
+  {
+    "studentNumber": 4,
+    "questionNumber": 2,
+    "questionText": "احتمال التسجيل في الشوط الأول 0.65 وفي الشوط الثاني 0.70. بافتراض الاستقلال، ما احتمال التسجيل في الشوطين؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "0.65 × 0.70",
+    "correctAnswerDecimal": 0.455
+  },
+  {
+    "studentNumber": 5,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يحصل لاعب من المنتخب على بطاقة صفراء هو 0.25. ما احتمال ألا يحصل على بطاقة؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.25",
+    "correctAnswerDecimal": 0.75
+  },
+  {
+    "studentNumber": 5,
+    "questionNumber": 2,
+    "questionText": "احتمال فوز المنتخب 0.60 والتعادل بعد 90 دقيقة 0.22. ما احتمال ألا يخسر خلال الوقت الأصلي؟",
+    "rule": "القاعدة 4: الجمع - الفوز أو التعادل",
+    "formulaAndSolution": "0.60 + 0.22",
+    "correctAnswerDecimal": 0.82
+  },
+  {
+    "studentNumber": 6,
+    "questionNumber": 1,
+    "questionText": "احتمال أن تسجل ركلة الجزاء هو 0.85. ما احتمال إضاعتها؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.85",
+    "correctAnswerDecimal": 0.15
+  },
+  {
+    "studentNumber": 6,
+    "questionNumber": 2,
+    "questionText": "إذا كان احتمال نجاح ركلتين مستقلتين هو 0.85 لكل ركلة، فما احتمال نجاحهما معًا؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "0.85 × 0.85",
+    "correctAnswerDecimal": 0.7225
+  },
+  {
+    "studentNumber": 7,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يصد الحارس ركلة ترجيح هو 0.35. ما احتمال أن تسجل الركلة؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.35",
+    "correctAnswerDecimal": 0.65
+  },
+  {
+    "studentNumber": 7,
+    "questionNumber": 2,
+    "questionText": "إذا واجه الحارس ركلتي ترجيح مستقلتين واحتمال التصدي لكل واحدة 0.35، فما احتمال أن يتصدى للركلتين؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "0.35 × 0.35",
+    "correctAnswerDecimal": 0.1225
+  },
+  {
+    "studentNumber": 8,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يسجل المنتخب هدفًا قبل الدقيقة 30 هو 0.40. ما احتمال ألا يسجل قبل الدقيقة 30؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.40",
+    "correctAnswerDecimal": 0.6
+  },
+  {
+    "studentNumber": 8,
+    "questionNumber": 2,
+    "questionText": "احتمال الفوز 0.62 والتعادل 0.18. ما احتمال ألا يخسر المنتخب؟",
+    "rule": "القاعدة 4: الجمع - الفوز أو التعادل",
+    "formulaAndSolution": "0.62 + 0.18",
+    "correctAnswerDecimal": 0.8
+  },
+  {
+    "studentNumber": 9,
+    "questionNumber": 1,
+    "questionText": "احتمال أن تصل المباراة إلى ركلات الترجيح هو 0.20. ما احتمال ألا تصل إليها؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.20",
+    "correctAnswerDecimal": 0.8
+  },
+  {
+    "studentNumber": 9,
+    "questionNumber": 2,
+    "questionText": "إذا كان احتمال تسجيل كل ركلة ترجيح 0.80، فما احتمال تسجيل أول ركلتين؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "0.80 × 0.80",
+    "correctAnswerDecimal": 0.64
+  },
+  {
+    "studentNumber": 10,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يسجل المنتخب هدفين أو أكثر هو 0.45. ما احتمال ألا يسجل هدفين أو أكثر؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.45",
+    "correctAnswerDecimal": 0.55
+  },
+  {
+    "studentNumber": 10,
+    "questionNumber": 2,
+    "questionText": "احتمال فوز المنتخب في الوقت الأصلي 0.55 والفوز في الوقت الإضافي 0.15. إذا كان الحدثان متنافيين، فما احتمال الفوز قبل ركلات الترجيح؟",
+    "rule": "القاعدة 4: الجمع - أحداث متنافية",
+    "formulaAndSolution": "0.55 + 0.15",
+    "correctAnswerDecimal": 0.7
+  },
+  {
+    "studentNumber": 11,
+    "questionNumber": 1,
+    "questionText": "احتمال الحفاظ على شباك نظيفة هو 0.30. ما احتمال استقبال هدف واحد على الأقل؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.30",
+    "correctAnswerDecimal": 0.7
+  },
+  {
+    "studentNumber": 11,
+    "questionNumber": 2,
+    "questionText": "احتمال أن يسجل اللاعب A = 0.40 واللاعب B = 0.50. بافتراض الاستقلال، ما احتمال أن يسجلا معًا؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "0.40 × 0.50",
+    "correctAnswerDecimal": 0.2
+  },
+  {
+    "studentNumber": 12,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يحصل المنتخب على ركلة جزاء هو 0.15. ما احتمال ألا يحصل عليها؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.15",
+    "correctAnswerDecimal": 0.85
+  },
+  {
+    "studentNumber": 12,
+    "questionNumber": 2,
+    "questionText": "احتمال الحصول على ركلة جزاء 0.15 واحتمال تسجيلها عند الحصول عليها 0.80. ما احتمال أن يحصل المنتخب على ركلة جزاء ويسجلها؟",
+    "rule": "القاعدة 5: الضرب باستخدام احتمال شرطي",
+    "formulaAndSolution": "P(A ∩ B) = P(A) × P(B|A) = 0.15 × 0.80",
+    "correctAnswerDecimal": 0.12
+  },
+  {
+    "studentNumber": 13,
+    "questionNumber": 1,
+    "questionText": "احتمال أن ينتهي الشوط الأول بالتعادل هو 0.50. ما احتمال ألا ينتهي بالتعادل؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.50",
+    "correctAnswerDecimal": 0.5
+  },
+  {
+    "studentNumber": 13,
+    "questionNumber": 2,
+    "questionText": "احتمال الفوز 0.58 والتعادل 0.24. ما احتمال أن ينهي المنتخب 90 دقيقة دون خسارة؟",
+    "rule": "القاعدة 4: الجمع - الفوز أو التعادل",
+    "formulaAndSolution": "0.58 + 0.24",
+    "correctAnswerDecimal": 0.82
+  },
+  {
+    "studentNumber": 14,
+    "questionNumber": 1,
+    "questionText": "احتمال تسجيل المنتخب من ركلة ثابتة هو 0.20. ما احتمال عدم التسجيل من ركلة ثابتة؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.20",
+    "correctAnswerDecimal": 0.8
+  },
+  {
+    "studentNumber": 14,
+    "questionNumber": 2,
+    "questionText": "احتمال التسجيل من ركنية 0.10 ومن ركلة حرة 0.15. إذا كان الحدثان متنافيين، فما احتمال التسجيل من إحدى الحالتين؟",
+    "rule": "القاعدة 4: الجمع - أحداث متنافية",
+    "formulaAndSolution": "0.10 + 0.15",
+    "correctAnswerDecimal": 0.25
+  },
+  {
+    "studentNumber": 15,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يتقدم المنتخب في نهاية الشوط الأول هو 0.48. ما احتمال ألا يكون متقدمًا؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.48",
+    "correctAnswerDecimal": 0.52
+  },
+  {
+    "studentNumber": 15,
+    "questionNumber": 2,
+    "questionText": "احتمال أن يتقدم في الشوط الأول 0.48 وأن يفوز بالمباراة بشرط تقدمه هو 0.75. ما احتمال أن يتقدم ثم يفوز؟",
+    "rule": "القاعدة 5: الضرب باستخدام احتمال شرطي",
+    "formulaAndSolution": "0.48 × 0.75",
+    "correctAnswerDecimal": 0.36
+  },
+  {
+    "studentNumber": 16,
+    "questionNumber": 1,
+    "questionText": "احتمال تسجيل اللاعب ركلة الترجيح هو 0.90. ما احتمال إضاعتها؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.90",
+    "correctAnswerDecimal": 0.1
+  },
+  {
+    "studentNumber": 16,
+    "questionNumber": 2,
+    "questionText": "احتمال نجاح ثلاث ركلات ترجيح مستقلة، كل واحدة باحتمال 0.90. ما احتمال نجاح الثلاث جميعًا؟",
+    "rule": "القاعدة 5: الضرب - 3 أحداث مستقلة",
+    "formulaAndSolution": "0.90 × 0.90 × 0.90",
+    "correctAnswerDecimal": 0.729
+  },
+  {
+    "studentNumber": 17,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يسجل الخصم الهدف الأول هو 0.35. ما احتمال ألا يسجل الخصم الهدف الأول؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.35",
+    "correctAnswerDecimal": 0.65
+  },
+  {
+    "studentNumber": 17,
+    "questionNumber": 2,
+    "questionText": "احتمال فوز المنتخب 0.60 والتعادل 0.20. ما احتمال الفوز أو التعادل؟",
+    "rule": "القاعدة 4: الجمع - أحداث متنافية",
+    "formulaAndSolution": "0.60 + 0.20",
+    "correctAnswerDecimal": 0.8
+  },
+  {
+    "studentNumber": 18,
+    "questionNumber": 1,
+    "questionText": "احتمال وصول المباراة للوقت الإضافي هو 0.25. ما احتمال حسمها في 90 دقيقة؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.25",
+    "correctAnswerDecimal": 0.75
+  },
+  {
+    "studentNumber": 18,
+    "questionNumber": 2,
+    "questionText": "إذا وصلت المباراة للوقت الإضافي، فاحتمال فوز المنتخب فيه 0.40. ما احتمال الوصول للوقت الإضافي ثم الفوز فيه؟",
+    "rule": "القاعدة 5: الضرب باستخدام احتمال شرطي",
+    "formulaAndSolution": "0.25 × 0.40",
+    "correctAnswerDecimal": 0.1
+  },
+  {
+    "studentNumber": 19,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يسجل المنتخب في آخر 15 دقيقة هو 0.30. ما احتمال ألا يسجل؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.30",
+    "correctAnswerDecimal": 0.7
+  },
+  {
+    "studentNumber": 19,
+    "questionNumber": 2,
+    "questionText": "احتمال تسجيل لاعب A = 0.35 ولاعب B = 0.45. بافتراض الاستقلال، ما احتمال أن يسجلا معًا؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "0.35 × 0.45",
+    "correctAnswerDecimal": 0.1575
+  },
+  {
+    "studentNumber": 20,
+    "questionNumber": 1,
+    "questionText": "احتمال أن ينتهي النهائي بالتعادل بعد 90 دقيقة هو 0.28. ما احتمال ألا ينتهي بالتعادل؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.28",
+    "correctAnswerDecimal": 0.72
+  },
+  {
+    "studentNumber": 20,
+    "questionNumber": 2,
+    "questionText": "احتمال الفوز 0.50 والتعادل 0.28. ما احتمال ألا يخسر المنتخب في الوقت الأصلي؟",
+    "rule": "القاعدة 4: الجمع - الفوز أو التعادل",
+    "formulaAndSolution": "0.50 + 0.28",
+    "correctAnswerDecimal": 0.78
+  },
+  {
+    "studentNumber": 21,
+    "questionNumber": 1,
+    "questionText": "احتمال أن ينجح الحارس في التصدي لركلة ترجيح هو 0.40. ما احتمال عدم التصدي؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.40",
+    "correctAnswerDecimal": 0.6
+  },
+  {
+    "studentNumber": 21,
+    "questionNumber": 2,
+    "questionText": "إذا تصدى الحارس لأول ركلة باحتمال 0.40 وللثانية باحتمال 0.40، فما احتمال التصدي للركلتين؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "0.40 × 0.40",
+    "correctAnswerDecimal": 0.16
+  },
+  {
+    "studentNumber": 22,
+    "questionNumber": 1,
+    "questionText": "احتمال تسجيل هدف من ركنية هو 0.12. ما احتمال عدم التسجيل؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.12",
+    "correctAnswerDecimal": 0.88
+  },
+  {
+    "studentNumber": 22,
+    "questionNumber": 2,
+    "questionText": "احتمال تسجيل المنتخب من ركنية 0.12 ومن ركلة جزاء 0.18. إذا كان الحدثان متنافيين، فما احتمال التسجيل من أحدهما؟",
+    "rule": "القاعدة 4: الجمع - أحداث متنافية",
+    "formulaAndSolution": "0.12 + 0.18",
+    "correctAnswerDecimal": 0.3
+  },
+  {
+    "studentNumber": 23,
+    "questionNumber": 1,
+    "questionText": "احتمال فوز المنتخب بالكأس هو 0.70. ما احتمال خسارة الكأس؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.70",
+    "correctAnswerDecimal": 0.3
+  },
+  {
+    "studentNumber": 23,
+    "questionNumber": 2,
+    "questionText": "إذا كان احتمال الوصول لركلات الترجيح 0.25 واحتمال الفوز بها عند الوصول إليها 0.60، فما احتمال الوصول للترجيح والفوز به؟",
+    "rule": "القاعدة 5: الضرب باستخدام احتمال شرطي",
+    "formulaAndSolution": "P(A ∩ B) = P(A) × P(B|A) = 0.25 × 0.60",
+    "correctAnswerDecimal": 0.15
+  },
+  {
+    "studentNumber": 24,
+    "questionNumber": 1,
+    "questionText": "احتمال أن تكون أول تسديدة للمنتخب على المرمى هو 0.65. ما احتمال ألا تكون على المرمى؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.65",
+    "correctAnswerDecimal": 0.35
+  },
+  {
+    "studentNumber": 24,
+    "questionNumber": 2,
+    "questionText": "احتمال نجاح تسديدتين مستقلتين على المرمى هو 0.65 لكل واحدة. ما احتمال نجاحهما معًا؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "0.65 × 0.65",
+    "correctAnswerDecimal": 0.4225
+  },
+  {
+    "studentNumber": 25,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يسجل المنتخب قبل نهاية الشوط الأول هو 0.55. ما احتمال ألا يسجل؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.55",
+    "correctAnswerDecimal": 0.45
+  },
+  {
+    "studentNumber": 25,
+    "questionNumber": 2,
+    "questionText": "احتمال أن يسجل في الشوط الأول 0.55 وفي الشوط الثاني 0.65. بافتراض الاستقلال، ما احتمال التسجيل في الشوطين؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "0.55 × 0.65",
+    "correctAnswerDecimal": 0.3575
+  },
+  {
+    "studentNumber": 26,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يحصل أحد لاعبي المنتخب على بطاقة حمراء هو 0.08. ما احتمال ألا يحصل أي لاعب على بطاقة حمراء؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.08",
+    "correctAnswerDecimal": 0.92
+  },
+  {
+    "studentNumber": 26,
+    "questionNumber": 2,
+    "questionText": "احتمال الحصول على بطاقة حمراء 0.08 واحتمال الخسارة بشرط البطاقة الحمراء 0.70. ما احتمال الحصول على بطاقة حمراء ثم الخسارة؟",
+    "rule": "القاعدة 5: الضرب باستخدام احتمال شرطي",
+    "formulaAndSolution": "0.08 × 0.70",
+    "correctAnswerDecimal": 0.056
+  },
+  {
+    "studentNumber": 27,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يحافظ المنتخب على تقدمه بعد تسجيله الهدف الأول هو 0.75. ما احتمال ألا يحافظ على التقدم؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.75",
+    "correctAnswerDecimal": 0.25
+  },
+  {
+    "studentNumber": 27,
+    "questionNumber": 2,
+    "questionText": "احتمال تسجيل الهدف الأول 0.60 واحتمال الفوز بشرط تسجيل الهدف الأول 0.80. ما احتمال تسجيل الهدف الأول ثم الفوز؟",
+    "rule": "القاعدة 5: الضرب باستخدام احتمال شرطي",
+    "formulaAndSolution": "0.60 × 0.80",
+    "correctAnswerDecimal": 0.48
+  },
+  {
+    "studentNumber": 28,
+    "questionNumber": 1,
+    "questionText": "احتمال أن تنتهي المباراة بفارق هدف واحد هو 0.45. ما احتمال ألا تنتهي بفارق هدف واحد؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.45",
+    "correctAnswerDecimal": 0.55
+  },
+  {
+    "studentNumber": 28,
+    "questionNumber": 2,
+    "questionText": "احتمال الفوز 0.57 والتعادل 0.23. ما احتمال ألا يخسر المنتخب خلال 90 دقيقة؟",
+    "rule": "القاعدة 4: الجمع - الفوز أو التعادل",
+    "formulaAndSolution": "0.57 + 0.23",
+    "correctAnswerDecimal": 0.8
+  },
+  {
+    "studentNumber": 29,
+    "questionNumber": 1,
+    "questionText": "احتمال نجاح ركلة ترجيح هو 0.88. ما احتمال إضاعتها؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.88",
+    "correctAnswerDecimal": 0.12
+  },
+  {
+    "studentNumber": 29,
+    "questionNumber": 2,
+    "questionText": "إذا نفذ لاعبان ركلتين مستقلتين واحتمال النجاح لكل منهما 0.88، فما احتمال نجاح الركلتين؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "0.88 × 0.88",
+    "correctAnswerDecimal": 0.7744
+  },
+  {
+    "studentNumber": 30,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يسجل المنتخب الهدف الأخير في المباراة هو 0.52. ما احتمال ألا يسجل الهدف الأخير؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.52",
+    "correctAnswerDecimal": 0.48
+  },
+  {
+    "studentNumber": 30,
+    "questionNumber": 2,
+    "questionText": "احتمال أن يسجل اللاعب A = 0.30 واللاعب B = 0.40. بافتراض الاستقلال، ما احتمال أن يسجلا معًا؟",
+    "rule": "القاعدة 5: الضرب - أحداث مستقلة",
+    "formulaAndSolution": "0.30 × 0.40",
+    "correctAnswerDecimal": 0.12
+  },
+  {
+    "studentNumber": 31,
+    "questionNumber": 1,
+    "questionText": "احتمال أن يفوز المنتخب بالكأس هو 0.68. ما احتمال ألا يفوز بالكأس؟",
+    "rule": "القاعدة 3: المتممة",
+    "formulaAndSolution": "1 - 0.68",
+    "correctAnswerDecimal": 0.32
+  },
+  {
+    "studentNumber": 31,
+    "questionNumber": 2,
+    "questionText": "احتمال الوصول لركلات الترجيح 0.30، واحتمال الفوز بالترجيح عند الوصول إليه 0.65. ما احتمال الوصول إلى ركلات الترجيح والفوز بها؟",
+    "rule": "القاعدة 5: الضرب باستخدام احتمال شرطي",
+    "formulaAndSolution": "0.30 × 0.65",
+    "correctAnswerDecimal": 0.195
+  }
+]
